@@ -47,4 +47,6 @@ binary_tree_t *binary_tree_sibling(binary_tree_t *node);
 binary_tree_t *binary_tree_uncle(binary_tree_t *node);
 void print_num(int n);
 size_t tree_height(const binary_tree_t *tree);
+int depth(const binary_tree_t *node);
+int is_perfect(const binary_tree_t *root, int d, int level);
 #endif /* BINARY_TREES */
